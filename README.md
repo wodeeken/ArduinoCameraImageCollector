@@ -4,7 +4,8 @@ An app to read in JPEG image data from the provided serial port and baud rate, a
 
 # Notes
 1. The port, whether default or user-specified, needs to be opened for reading prior to starting this program, e.g. run 'sudo chmod a+r <port-name>
-2. This application is intended to be used with the Arduino Camera, running the sketch located @ . The baud rate for the Xbee radio is set at 38400.
+2. This application is intended to be used with the Arduino Camera, running the sketch located in the repo here: https://github.com/wodeeken/ArduCamSketch. The baud rate for the Xbee radio on the Arduino is set at 38400.
+3. For a user-friendly way of viewing the images, visit the web app located in the repo here: https://github.com/wodeeken/ArduinoCameraImageWebApp.
 
 # Usage
  ArduinoCameraImageCollector <Serial_Port> <Baud_Rate>   : run program with provided serial port.
