@@ -1,6 +1,6 @@
 # Arduino Camera Image Collector
 
-An app to read in JPEG image data from the provided serial port and baud rate, and to write them into the same directory as this executable. Images will be stored in a folder with the format MM_dd_YY, and image names will be of the form HH_mm_ss.
+An .NET 7 app to read in JPEG image data from the provided serial port and baud rate, and to write them into the same directory as this executable. Images will be stored in a folder with the format MM_dd_YY, and image names will be of the form HH_mm_ss.
 
 # Notes
 1. The port, whether default or user-specified, needs to be opened for reading prior to starting this program, e.g. run 'sudo chmod a+r <port-name>
